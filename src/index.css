@@ -19,10 +19,9 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: flex-start;
-  /* Changed from center to allow normal scrolling */
-  justify-content: center;
+  /* display: flex; REMOVED for web standard layout */
+  /* place-items: flex-start; REMOVED */
+  /* justify-content: center; REMOVED */
   min-width: 320px;
   min-height: 100vh;
   background-color: #f9fafb;
